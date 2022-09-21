@@ -7,8 +7,8 @@ const axiosInstance = axios.create({
   method: 'get',
   baseURL: 'https://api.adzuna.com/v1/api',
   params: {
-    app_id: process.env.REACT_APPappid,
-    app_key: process.env.REACT_APPappkey,
+    app_id: process.env.REACT_APP_appid,
+    app_key: process.env.REACT_APP_appkey,
   },
   headers: { 'content-type': 'application/json' },
 });
