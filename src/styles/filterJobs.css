@@ -1,0 +1,51 @@
+.filterJobsContainer {
+  margin-top: 3rem;
+  padding-left: 1.2rem;
+}
+
+.filterJobsTitle {
+  margin: 3.5rem 0rem 1.5rem 0rem;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: #B9BDCF;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  margin-left: 0.8rem;
+}
+
+.filter label {
+  margin-left: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: #334680;
+}
+
+.lugar {
+  margin-top: 1.5rem;
+}
+
+.warn {
+  margin-bottom: 1.5rem;
+  color: darkslategray;
+  font-size: 1.5rem;
+  animation: fontSize1 1s ease-in-out infinite alternate-reverse;
+}
+
+@keyframes fontSize1 {
+  from {
+    font-size: 1.5rem
+  }
+
+  to {
+    font-size: 1.55rem
+  }
+}

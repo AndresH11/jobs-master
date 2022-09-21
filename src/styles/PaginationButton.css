@@ -1,0 +1,21 @@
+.PaginationButtonContainer {
+  width: 3.6rem;
+  height: 3.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Roboto,' sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: #B9BDCF;
+  border: 0.1rem solid #B9BDCF;
+  border-radius: 0.4rem;
+  cursor: pointer;
+}
+
+.PaginationButtonContainer:hover {
+  border: 0.1rem solid #1E86FF;
+  color: #1E86FF;
+}

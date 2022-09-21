@@ -1,0 +1,12 @@
+.footerContainer {
+  height: 6.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Montserrat', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: #B9BDCF;
+}

@@ -1,0 +1,47 @@
+.search span {
+  font-size: 1.5rem;
+  color: #B9BDCF;
+}
+
+.search input {
+  width: 59%;
+  height: 90%;
+  padding-left: 1rem;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: #B9BDCF;
+}
+
+.search input:focus-visible {
+  outline: none;
+}
+
+.search button {
+  width: 8.4rem;
+  height: 4.7rem;
+  background-color: #1E86FF;
+  border: none;
+  border-radius: 0.4rem;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.6rem;
+  line-height: 1.9rem;
+  color: #FFFFFF;
+}
+
+@media (min-width: 767px) {
+  .search input {
+    width: 538px;
+  }
+}
+
+@media (min-width: 1023px) {
+  .search input {
+    width: 85%;
+  }
+}

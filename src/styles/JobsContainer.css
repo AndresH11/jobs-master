@@ -1,0 +1,6 @@
+@media (min-width: 1023px) {
+  .jobsContainer {
+    display: grid;
+    grid-template-columns: 39rem 2fr;
+  }
+}

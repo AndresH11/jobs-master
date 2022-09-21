@@ -1,0 +1,185 @@
+.DescriptionJobsContainer {
+  margin-top: 3.3rem;
+}
+
+.backButton {
+  display: flex;
+  align-items: center;
+  margin-left: 1.4rem;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: #1E86FF;
+}
+
+.backButton p {
+  margin-left: 1.5rem;
+  cursor: pointer;
+}
+
+.backButton span {
+  cursor: pointer;
+}
+
+.howToApply {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 3.6rem;
+}
+
+.howToApplyTitle {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  margin-bottom: 1.6rem;
+  color: #B9BDCF;
+}
+
+.howToApplyDescription {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.4rem;
+  line-height: 2.1rem;
+  color: #334680;
+}
+
+.DescriptionJobsContainerVacant {
+  margin-top: 3.6rem;
+  padding-left: 1.2rem;
+}
+
+.DescriptionJobsInfoTitle {
+  width: 95%;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+  color: #334680;
+}
+
+.DescriptionJobsInfoTime {
+  display: inline-block;
+  border: 1px solid;
+  margin-top: 0.5rem;
+  padding: 0.4rem;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  border-radius: 0.4rem;
+  color: #334680;
+}
+
+.DescriptionJobsInfoPublicationTime {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: #B7BCCE;
+}
+
+.DescriptionJobsInfoPublicationTime p {
+  margin-left: 0.8rem;
+}
+
+.DescriptionJobsInfoConpany {
+  margin-top: 3.7rem;
+  display: grid;
+  grid-template-columns: 5.5rem 2fr;
+}
+
+.DescriptionJobsInfoConpany .logo {
+  width: 90%;
+  height: 90%;
+  border-radius: 0.4rem;
+}
+
+.DescriptionJobsInfoConpany .logo img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.8rem;
+}
+
+.comodin {
+  margin-left: 1rem
+}
+
+.DescriptionJobsInfoConpany .title {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+  color: #334680;
+}
+
+.DescriptionJobsInfoConpany .lugar {
+  display: flex;
+  align-items: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  color: #B9BDCF;
+}
+
+.DescriptionJobsInfoConpany .lugar p {
+  margin-left: 0.8rem;
+}
+
+.DescriptionJobs {
+  width: 90%;
+  margin-top: 3.4rem;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.6rem;
+  line-height: 150%;
+  color: #334680;
+}
+
+/*Mediaquery*/
+
+/*Tablet*/
+
+@media (min-width: 767px) {
+  .comodin2 {
+    display: flex;
+    align-items: center;
+  }
+
+  .DescriptionJobsInfoTitle {
+    width: auto;
+    margin-right: 2rem;
+  }
+
+  .DescriptionJobsInfoTime {
+    width: 5.7rem;
+    height: 2.4rem;
+  }
+}
+
+/*PC*/
+
+@media (min-width: 1023px) {
+  .DescriptionJobsContainer {
+    display: grid;
+    grid-template-columns: 35rem 2fr;
+  }
+
+  .DescriptionJobsContainerVacant {
+    margin-top: 0rem;
+  }
+}
