@@ -38,7 +38,7 @@ const DescriptionJobs = () => {
           </div>
           <div className='DescriptionJobsInfoConpany'>
             <figure className='logo'>
-              <img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpEbsAuSz3e5whJxOF6eyO6w-LoMVNUL3t0A&usqp=CAU' alt="logo" />
+              <img src='https://r7q6w9z6.rocketcdn.me/career/wp-content/uploads/2021/05/feat-24.jpg' alt="logo" />
             </figure>
             <div className='comodin'>
               <p className='title'>{descriptionJob.company.display_name}</p>
