@@ -10,7 +10,11 @@ const DescriptionJobs = () => {
   const navigate = useNavigate();
 
   const descriptionJob = useSelector(state => state.descriptionApi);
-
+  const jobTilte = descriptionJob.title || 'job title not found';
+  const contractTime = descriptionJob.contract_time || 'contract time not found';
+  const companyName = descriptionJob.company.display_name || 'company name not found';
+  const locationName = descriptionJob.location.display_name || 'Description not found';
+  const jobsDescription =  descriptionJob.description || 'job description not found';
   const dateCreated = dateFormat(descriptionJob.created).split(' ');
 
   return (
@@ -29,8 +33,8 @@ const DescriptionJobs = () => {
       <div className='DescriptionJobsContainerVacant'>
         <div className='DescriptionJobsInfo'>
           <div className='comodin2'>
-            <p className='DescriptionJobsInfoTitle'>{descriptionJob.title}</p>
-            <p className='DescriptionJobsInfoTime'>{descriptionJob.contract_time}</p>
+            <p className='DescriptionJobsInfoTitle'>{jobTilte}</p>
+            <p className='DescriptionJobsInfoTime'>{contractTime}</p>
           </div>
           <div className='DescriptionJobsInfoPublicationTime'>
             <span className='material-symbols-outlined uno'>schedule</span>
@@ -41,16 +45,16 @@ const DescriptionJobs = () => {
               <img src='https://r7q6w9z6.rocketcdn.me/career/wp-content/uploads/2021/05/feat-24.jpg' alt="logo" />
             </figure>
             <div className='comodin'>
-              <p className='title'>{descriptionJob.company.display_name}</p>
+              <p className='title'>{companyName}</p>
               <div className='lugar'>
                 <span className='material-symbols-outlined uno'>public</span>
-                <p>{descriptionJob.location.display_name}</p>
+                <p>{locationName}</p>
               </div>
             </div>
           </div>
         </div>
         <div className='DescriptionJobs'>
-          <p>{descriptionJob.description}</p>
+          <p>{jobsDescription}</p>
         </div>
       </div>
     </div>
